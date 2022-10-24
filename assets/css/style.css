@@ -319,6 +319,28 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   bottom : -56.5vh;
 }
 
+.right {
+  background-color: #fff;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(209,209,209, 0.6);
+  margin:2px;
+  font-size:24px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+
+.left {
+  background-color: #fff;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(209,209,209, 0.6);
+  margin:2px;
+  font-size:24px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+
 hr {
   border: none;
   border-top: 3px double #333;
