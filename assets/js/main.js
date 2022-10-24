@@ -77,11 +77,18 @@
 //   console.log(articles[0])
 // }
 
-$(document).ready(function(){
-  // active thumbnail
-  $("#article").on("click", function(){
-			$(this).addClass("active");
-			$(this).siblings().removeClass("active");
-		
-		});
-})
+(function($) {
+  "use strict";
+
+  // manual carousel controls
+  $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+  $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+  
+})(jQuery);
+
+// Carousel Auto-Cycle
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 6000
+  })
+});

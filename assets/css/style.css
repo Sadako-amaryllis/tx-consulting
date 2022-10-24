@@ -291,27 +291,27 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   margin-bottom: 0;
 }
 
-.expertises .icon-box-pink:active {
+.expertises .icon-box-pink:hover {
   background: linear-gradient(to right, rgb(32,183,130, 0.6), rgb(32,215,130, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
 
-.expertises .icon-box-cyan:active {
+.expertises .icon-box-cyan:hover {
   background: linear-gradient(to right,rgb(32,64,78, 0.6), rgb(35,113,147, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
 
-.expertises .icon-box-green:active {
+.expertises .icon-box-green:hover {
   background: linear-gradient(to right, rgb(247,107,100, 0.6), rgb(248,93,131, 0.6)), url("../img/2.jpg") no-repeat;
   color: #fff;
 }
 
-.expertises .icon-box-blue:active {
+.expertises .icon-box-blue:hover {
   background: linear-gradient(to right, rgb(96,68,147, 0.6), rgb(127,97,181, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
 
-/* bouton margin */
+/* bouton carrousel */
 
 .js-btn-container {
   position: absolute;
@@ -355,3 +355,5 @@ span {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
 }
+
+
