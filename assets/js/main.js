@@ -10,17 +10,6 @@
     }
   }
 
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
-    }
-  }
-
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
@@ -55,9 +44,7 @@
     onscroll(document, headerScrolled)
   }
 
-  /**
-   * Skills animation
-   */
+  /* Skills animation*/
   let skilsContent = select('.skills-content');
   if (skilsContent) {
     new Waypoint({
@@ -73,10 +60,10 @@
   }
 })()
 
-let caroutargets = document.querySelectorAll('button')
-let articles = document.querySelectorAll('.article')
-let caroutarget1 = document.getElementById('js-btn-left')
-let caroutarget2 = document.getElementById('js-btn-right')
+// let caroutargets = document.querySelectorAll('button')
+// let articles = document.querySelectorAll('.article')
+// let caroutarget1 = document.getElementById('js-btn-left')
+// let caroutarget2 = document.getElementById('js-btn-right')
 // console.log(articles)
 
 // caroutarget1.addEventListener('click', ClickLeft)
@@ -90,30 +77,11 @@ let caroutarget2 = document.getElementById('js-btn-right')
 //   console.log(articles[0])
 // }
 
-// function carouAction(){
-//   caroutarget[0].addEventListener('click',  test, console.log('jz'))
-// }
-// for (let i = 0; i < articles.length; i++) {
-//   let article = articles[i]
-//   let carrouselIndex = 405;
-//   caroutarget1.addEventListener('click', function(){
-//     if (carrouselIndex >=0 ) {
-//      return console.log("C'est un bug ça");
-//     }
-//     else  {
-//       carrouselIndex +=405
-//       article.style.transform = translateX(carrouselIndex)
-//     }
-//   })
-//   caroutarget2.addEventListener('click', function() {
-//     carrouselIndex -= 405
-//     article.style.transform = translateX(carrouselIndex)
-//    console.log(window.innerWidth) 
-//     if (window.innerWidth >= 1200 && carrouselIndex === -4054) {
-//       carrouselIndex = 405
-//     }
-//     else if (carrouselIndex === -4054) {
-//       carrouselIndex = 405;
-//     };
-//   })
-// }
+$(document).ready(function(){
+  // active thumbnail
+  $("#article").on("click", function(){
+			$(this).addClass("active");
+			$(this).siblings().removeClass("active");
+		
+		});
+})
