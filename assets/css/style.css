@@ -168,6 +168,10 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   align-items: flex-end;
 }
 
+.reseaux a span{
+  color: #444;
+}
+
 #hero .carousel-container {
   
   align-items: flex-start;
