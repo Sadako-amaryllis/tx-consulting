@@ -317,7 +317,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 }
 
 .expertises .icon-box-or:hover {
-  background: linear-gradient(to right, rgb(246,80,28), 0.6, rgb(254,173,30, 0.6)), url("../img/1.png") no-repeat;
+  background: linear-gradient(to right, rgb(246,80,28, 0.6), rgb(254,173,30, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
 
