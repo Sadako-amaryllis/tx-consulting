@@ -165,6 +165,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 .reseaux a {
   color: #fff;
   font-size: 20px;
+  align-items: flex-end;
 }
 
 #hero .carousel-container {
@@ -276,10 +277,6 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   height: 72px;
 }
 
-.expertises .icon i {
-  font-size: 36px;
-  line-height: 1;
-}
 
 .expertises .title {
   font-weight: 700;
@@ -291,11 +288,20 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   text-align: left;
 }
 
-.expertises .title a {
+.expertises .title {
   color: #111;
 }
 
-.expertises .description .title a{
+.read {
+  color: #000;
+}
+
+.icon-box .read:hover, 
+.title:hover{
+  color: #fff;
+}
+
+.expertises .description .title {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
@@ -336,7 +342,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 .js-btn-container {
   position: absolute;
   width: auto;
-  bottom : -57vh;
+  bottom : -63vh;
 }
 
 .right {
