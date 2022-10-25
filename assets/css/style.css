@@ -61,11 +61,11 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 }
 
 /* Navigation Menu */
-.navbar {
+.navbar, .navigation {
   padding: 0;
 }
 
-.navbar ul {
+.navbar ul, .navigation ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -73,12 +73,14 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   align-items: center;
 }
 
-.navbar li {
+.navbar li, .navigation li {
   position: relative;
 }
 
 .navbar a,
-.navbar a:focus {
+.navbar a:focus, 
+.navigation a,
+.navigation a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -100,7 +102,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #68A4C4;
+  color: #fff;
 }
 
 .navbar .dropdown:hover>ul {
@@ -158,7 +160,11 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 .reseaux a img {
   width: 20px;
   filter: brightness(0%) invert(100%);
+}
 
+.reseaux a {
+  color: #fff;
+  font-size: 20px;
 }
 
 #hero .carousel-container {
@@ -281,7 +287,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   font-size: 18px;
 }
 
-.title a .description {
+.title, .description {
   text-align: left;
 }
 
