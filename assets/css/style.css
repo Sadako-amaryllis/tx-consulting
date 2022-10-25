@@ -313,7 +313,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 }
 
 .expertises .icon-box-cyan:hover {
-  background: linear-gradient(to right,rgb(32,64,78, 0.6), rgb(35,113,147, 0.6)), url("../img/1.png") no-repeat;
+  background: linear-gradient(to right,rgb(32,64,78, 0.6), rgb(35,113,147, 0.6)), url("../img/3.jpg") no-repeat;
   color: #fff;
 }
 
@@ -323,12 +323,12 @@ h1,h2,h3,h4,h5,h6, .font-primary {
 }
 
 .expertises .icon-box-purple:hover {
-  background: linear-gradient(to right, rgb(96,68,147, 0.6), rgb(127,97,181, 0.6)), url("../img/1.png") no-repeat;
+  background: linear-gradient(to right, rgb(96,68,147, 0.6), rgb(127,97,181, 0.6)), url("../img/4.jpg") no-repeat;
   color: #fff;
 }
 
 .expertises .icon-box-blue:hover {
-  background: linear-gradient(to right, rgb(44,220,228, 0.6), rgb(66,253,218, 0.6)), url("../img/1.png") no-repeat;
+  background: linear-gradient(to right, rgb(44,220,228, 0.6), rgb(66,253,218, 0.6)), url("../img/5.jpg") no-repeat;
   color: #fff;
 }
 
