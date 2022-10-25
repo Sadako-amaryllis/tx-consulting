@@ -291,7 +291,7 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   margin-bottom: 0;
 }
 
-.expertises .icon-box-pink:hover {
+.expertises .icon-box-green:hover {
   background: linear-gradient(to right, rgb(32,183,130, 0.6), rgb(32,215,130, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
@@ -301,13 +301,23 @@ h1,h2,h3,h4,h5,h6, .font-primary {
   color: #fff;
 }
 
-.expertises .icon-box-green:hover {
+.expertises .icon-box-pink:hover {
   background: linear-gradient(to right, rgb(247,107,100, 0.6), rgb(248,93,131, 0.6)), url("../img/2.jpg") no-repeat;
   color: #fff;
 }
 
-.expertises .icon-box-blue:hover {
+.expertises .icon-box-purple:hover {
   background: linear-gradient(to right, rgb(96,68,147, 0.6), rgb(127,97,181, 0.6)), url("../img/1.png") no-repeat;
+  color: #fff;
+}
+
+.expertises .icon-box-blue:hover {
+  background: linear-gradient(to right, rgb(44,220,228, 0.6), rgb(66,253,218, 0.6)), url("../img/1.png") no-repeat;
+  color: #fff;
+}
+
+.expertises .icon-box-or:hover {
+  background: linear-gradient(to right, rgb(246,80,28), 0.6, rgb(254,173,30, 0.6)), url("../img/1.png") no-repeat;
   color: #fff;
 }
 
@@ -355,5 +365,3 @@ span {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
 }
-
-
